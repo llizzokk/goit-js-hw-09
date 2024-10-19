@@ -34,6 +34,7 @@ function handleSubmit(event) {
     elements.message.value.length === 0
   ) {
     alert('Fill please all fields');
+    return;
   }
   console.log(formData);
 
